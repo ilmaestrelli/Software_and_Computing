@@ -1,0 +1,11 @@
+FROM rootproject/root:latest
+
+WORKDIR /workspace
+
+COPY atlas-higgs-challenge-2014-v2-bkg.root atlas-higgs-challenge-2014-v2-bkg.root 
+COPY atlas-higgs-challenge-2014-v2-sig.root atlas-higgs-challenge-2014-v2-sig.root
+COPY ML_TMVA.C ML_TMVA.C
+COPY TMVA_analysis.C TMVA_analysis.C 
+COPY dataset dataset 
+
+CMD ["bash"]
