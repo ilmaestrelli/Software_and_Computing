@@ -1,0 +1,26 @@
+FROM ubuntu:22.04
+
+WORKDIR /app
+
+SHELL ["/bin/bash", "-c"]
+
+COPY atlas-higgs-challenge-2014-v2-bkg.root atlas-higgs-challenge-2014-v2-bkg.root 
+COPY atlas-higgs-challenge-2014-v2-sig.root atlas-higgs-challenge-2014-v2-sig.root
+COPY ML_py.py ML_py.py
+
+# update the system
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install -y graphviz
+
+# install basic editor
+RUN apt-get install -y vim
+
+# install python and pip
+RUN apt-get install -y python3 python3-pip
+
+# upgrade pip and install python dependencies
+RUN pip3 install --upgrade pip
+RUN pip3 install scikit-learn matplotlib pandas numpy 
+RUN pip3 install pydot
+RUN pip3 install uproot h5py tensorflow
+
