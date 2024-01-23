@@ -49,7 +49,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
   root [0] .L ML_TMVA.C  
   root [1] ML_TMVA()  
 
-  Note: ML_TMVA() trains all the method at once; you can also train different ML methods separately by insterting the name of one method ("Cuts", "Fisher", "MLPBNN", "BDT") in the      argument of the function (ex. ML_TMVA("BDT")).
+  Note: ML_TMVA() trains all the method at once; you can also train different ML methods separately by inserting the name of one method ("Cuts", "Fisher", "MLPBNN", "BDT") in the      argument of the function (ex. ML_TMVA("BDT")).
 
   root [2] .L TMVA_analysis.C  
   root [3] TMVA_analysis ("method_you_want_to_use")  
@@ -72,7 +72,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
   root [0] .L ML_TMVA.C  
   root [1] ML_TMVA()  
 
-  Note: ML_TMVA() trains all the method at once; you can also train different ML methods separately by insterting the name of one method ("Cuts", "Fisher", "MLPBNN", "BDT") in the      argument of the function (ex. ML_TMVA("BDT")).
+  Note: ML_TMVA() trains all the method at once; you can also train different ML methods separately by inserting the name of one method ("Cuts", "Fisher", "MLPBNN", "BDT") in the      argument of the function (ex. ML_TMVA("BDT")).
 
   root [2] .L TMVA_analysis.C  
   root [3] TMVA_analysis ("method_you_want_to_use")  
