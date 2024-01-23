@@ -57,7 +57,9 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
 - _tensorflow analysis_    
   $ cd your/path/to/Software_and_Computing/ML_tensorflow  
   ($ conda activate apple_tensorflow)  
-  $ python3 ML_py.py  
+  $ python3 ML_py.py
+
+---------------------------------------------------------------------------
 
 **IF YOU DO NOT HAVE root AND tensorflow ALREADY INSTALLED**  
 $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git  
@@ -81,7 +83,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
   $ docker --rm --it your_image  
   $ python3 ML_py.py  
   
-
+**NOTE**: If you have some issues with the two .root files containing the dataset for the signal and the backgroung, you can also download them from this drive folder https://drive.google.com/drive/u/0/folders/1Qjlm0LlU3V8yMXpdPKd_vEr3gy74bmDr?q=sharedwith:public%20parent:1Qjlm0LlU3V8yMXpdPKd_vEr3gy74bmDr 
     
 
 
