@@ -40,26 +40,26 @@ More and complete informations about the dataset can be found here: http://opend
 
  
 # How to run the code(s)
-**IF YOU HAVE root AND tensorflow ALREADY INSTALLED**
-$ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
+**IF YOU HAVE root AND tensorflow ALREADY INSTALLED**  
+$ git clone https://github.com/ilmaestrelli/Software_and_Computing.git  
 
-- TMVA analysis
-  $ cd your/path/to/Software_and_Computing/ML_TMVA
-  $ root
-  root [0] .L ML_TMVA.C
-  root [1] ML_TMVA()
+- TMVA analysis  
+  $ cd your/path/to/Software_and_Computing/ML_TMVA  
+  $ root  
+  root [0] .L ML_TMVA.C  
+  root [1] ML_TMVA()  
 
   Note: ML_TMVA() trains all the method at once; you can also train different ML methods separately by insterting the name of one method ("Cuts", "Fisher", "MLPBNN", "BDT") in the      argument of the function (ex. ML_TMVA("BDT").
 
-  root [2] .L TMVA_analysis.C
-  root [3] TMVA_analysis ("method_you_want_to_use")
+  root [2] .L TMVA_analysis.C  
+  root [3] TMVA_analysis ("method_you_want_to_use")  
 
-- tensorflow analysis
-  $ cd your/path/to/Software_and_Computing/ML_tensorflow
-  ($ conda activate apple_tensorflow)
-  $ python3 ML_py.py
+- tensorflow analysis  
+  $ cd your/path/to/Software_and_Computing/ML_tensorflow  
+  ($ conda activate apple_tensorflow)  
+  $ python3 ML_py.py  
 
-**IF YOU DO NOT HAVE root AND tensorflow ALREADY INSTALLED**
+**IF YOU DO NOT HAVE root AND tensorflow ALREADY INSTALLED**  
 $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git  
 
 - TMVA analysis  
@@ -72,14 +72,14 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
 
   Note: ML_TMVA() trains all the method at once; you can also train different ML methods separately by insterting the name of one method ("Cuts", "Fisher", "MLPBNN", "BDT") in the      argument of the function (ex. ML_TMVA("BDT").
 
-  root [2] .L TMVA_analysis.C
-  root [3] TMVA_analysis ("method_you_want_to_use")
+  root [2] .L TMVA_analysis.C  
+  root [3] TMVA_analysis ("method_you_want_to_use")  
 
-  - tensorflow analysis
-  $ cd your/path/to/Software_and_Computing/ML_tensorflow
-  $ docker build -t your_image .
-  $ docker --rm --it your_image
-  $ python3 ML_py.py
+  - tensorflow analysis  
+  $ cd your/path/to/Software_and_Computing/ML_tensorflow  
+  $ docker build -t your_image .  
+  $ docker --rm --it your_image  
+  $ python3 ML_py.py  
   
 
     
