@@ -75,7 +75,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
   root [2] .L TMVA_analysis.C  
   root [3] TMVA_analysis ("method_you_want_to_use")  
 
-  - tensorflow analysis  
+- tensorflow analysis    
   $ cd your/path/to/Software_and_Computing/ML_tensorflow  
   $ docker build -t your_image .  
   $ docker --rm --it your_image  
