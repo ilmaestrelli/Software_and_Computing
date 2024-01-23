@@ -62,7 +62,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
 **IF YOU DO NOT HAVE root AND tensorflow ALREADY INSTALLED**  
 $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git  
 
-- TMVA analysis  
+- _TMVA analysis_ 
   $ cd your/path/to/Software_and_Computing/ML_TMVA  
   $ docker build -t your_image .  
   $ docker --rm --it your_image  
