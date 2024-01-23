@@ -43,7 +43,7 @@ More and complete informations about the dataset can be found here: http://opend
 **IF YOU HAVE root AND tensorflow ALREADY INSTALLED**  
 $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git  
 
-- TMVA analysis  
+- _TMVA analysis_    
   $ cd your/path/to/Software_and_Computing/ML_TMVA  
   $ root  
   root [0] .L ML_TMVA.C  
@@ -54,7 +54,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
   root [2] .L TMVA_analysis.C  
   root [3] TMVA_analysis ("method_you_want_to_use")  
 
-- tensorflow analysis  
+- _tensorflow analysis_    
   $ cd your/path/to/Software_and_Computing/ML_tensorflow  
   ($ conda activate apple_tensorflow)  
   $ python3 ML_py.py  
@@ -62,7 +62,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
 **IF YOU DO NOT HAVE root AND tensorflow ALREADY INSTALLED**  
 $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git  
 
-- _TMVA analysis_ 
+- _TMVA analysis_  
   $ cd your/path/to/Software_and_Computing/ML_TMVA  
   $ docker build -t your_image .  
   $ docker --rm --it your_image  
@@ -75,7 +75,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
   root [2] .L TMVA_analysis.C  
   root [3] TMVA_analysis ("method_you_want_to_use")  
 
-- tensorflow analysis    
+- _tensorflow analysis_     
   $ cd your/path/to/Software_and_Computing/ML_tensorflow  
   $ docker build -t your_image .  
   $ docker --rm --it your_image  
