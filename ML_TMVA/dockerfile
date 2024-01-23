@@ -1,6 +1,6 @@
 FROM rootproject/root:latest
 
-WORKDIR /workspace
+WORKDIR /app
 
 COPY atlas-higgs-challenge-2014-v2-bkg.root atlas-higgs-challenge-2014-v2-bkg.root 
 COPY atlas-higgs-challenge-2014-v2-sig.root atlas-higgs-challenge-2014-v2-sig.root
