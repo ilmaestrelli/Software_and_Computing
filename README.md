@@ -23,17 +23,26 @@ The chosen variables to train and test the algorithm are
 
 More and complete informations about the dataset can be found here: http://opendata.cern.ch/record/328
 
-# Files (and folders) description
-- ML_TMVA: the folder which contains all the files needed to perform analysis with TMVA, i.e.
+# Folders (and files) description
+- **ML_TMVA**: the folder which contains all the files needed to perform analysis with TMVA, i.e.
   - signal and background .root files
   - ML_TMVA.C : macro for dataset training. It produces the file "TMVA.root" and the folder "dataset" which will be used both by "TMVA_analysis.C"
   - TMVA_analysis.C : macro for testing the training results for each TMVA method
   - dockerfile : contains root environment (useful for users which do not have installed root)
 
-- ML_tensorflow: the folder which contains all the files needed to perform analysis with TMVA, i.e.
+- **ML_tensorflow**: the folder which contains all the files needed to perform analysis with TMVA, i.e.
   - signal and background .root files
   - ML_py.py : code for train and test data with a MLPBNN
   - dockerfile : contains tensorflow environment (useful for users which do not have installed the required libraries)
+ 
+- **output_TMVA**: the folder which contains some selected output/resuls from TMVA analysis, such as
+  - ...
+ 
+- **output_tensorflow**: the folder which contains some selected output/resuls from tensorflow analysis, such as
+  - ...
+ 
+# How to run the code(s)
+
     
 
 
