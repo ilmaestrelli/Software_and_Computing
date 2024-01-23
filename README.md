@@ -26,8 +26,8 @@ More and complete informations about the dataset can be found here: http://opend
 # Folders (and files) description
 - **ML_TMVA**: the folder which contains all the files needed to perform analysis with TMVA, i.e.
   - signal and background .root files
-  - ML_TMVA.C : macro for dataset training. It produces the file "TMVA.root" and the folder "dataset" which will be used both by "TMVA_analysis.C"
-  - TMVA_analysis.C : macro for testing the training results for each TMVA method
+  - ML_TMVA.C : macro for dataset training. It creates the file "TMVA.root" and the folder "dataset" which will be used both by "TMVA_analysis.C"
+  - TMVA_analysis.C : macro for testing the training results for each TMVA method. It creates "TMVApp.root". 
   - dockerfile : contains root environment (useful for users which do not have installed root)
 
 - **ML_tensorflow**: the folder which contains all the files needed to perform analysis with TMVA, i.e.
