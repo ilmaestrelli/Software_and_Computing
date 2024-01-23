@@ -1,5 +1,5 @@
 # Project overview
-The project belonging to this repository aims to use some Machine Learning (ML) algorithms in order to analyse a simulated Higgs boson deacy into two taus, i.e. to perform an event selection ad a signal-to-background ratio. In particular, the codes presented in this project give the possibility to perform a multivariate analysis both with TMVA (Toolkit for MultiVariate Analysis) and TensorFlow. For each, the following alorithms have been implemented:
+The project contained in this repository aims to use some Machine Learning (ML) algorithms in order to analyse a simulated Higgs boson deacy into two taus, i.e. to perform an event selection ad a signal-to-background ratio. In particular, the codes presented in this project give the possibility to perform a multivariate analysis both with TMVA (Toolkit for MultiVariate Analysis) and TensorFlow. For each, the following alorithms have been implemented:
 
 - TMVA: Cuts, Fisher discriminant, feed-forward Multilayer Perceptron Bayesian Neural Network (MLPBNN), Boosted decision trees (BDT)
 - TensorFlow: MLPBNN
