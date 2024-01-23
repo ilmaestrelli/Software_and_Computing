@@ -23,7 +23,7 @@ The chosen variables to train and test the algorithm are
 
 More and complete informations about the dataset can be found here: http://opendata.cern.ch/record/328
 
-# Repository files descriprtion
+# Files (and folders) description
 
 
 
