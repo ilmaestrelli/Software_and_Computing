@@ -67,7 +67,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
 - _TMVA analysis_  
   $ cd your/path/to/Software_and_Computing/ML_TMVA  
   $ docker build -t your_image .  
-  $ docker --rm --it your_image  
+  $ docker run --rm -it your_image  
   $ root  
   root [0] .L ML_TMVA.C  
   root [1] ML_TMVA()  
@@ -80,7 +80,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
 - _tensorflow analysis_     
   $ cd your/path/to/Software_and_Computing/ML_tensorflow  
   $ docker build -t your_image .  
-  $ docker --rm --it your_image  
+  $ docker run --rm -it your_image  
   $ python3 ML_py.py
 
 ---------------------------------------------------------------------------
