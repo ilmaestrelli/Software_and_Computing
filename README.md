@@ -35,8 +35,8 @@ More and complete informations about the dataset can be found here: http://opend
   - ML_py.py : code for train and test data with a MLPBNN
   - dockerfile : contains tensorflow environment (useful for users which do not have installed the required libraries)
  
-- **output_TMVA**: the folder which contains some selected output/resuls from TMVA training and analysis, such as
-- **output_tensorflow**: the folder which contains some selected output/resuls from tensorflow analysis, such as
+- **output_TMVA**: the folder which contains some selected output/resuls from TMVA training and analysis
+- **output_tensorflow**: the folder which contains some selected output/resuls from tensorflow analysis
 
  
 # How to run the code(s)
