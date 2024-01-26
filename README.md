@@ -87,7 +87,7 @@ $ git clone https://github.com/ilmaestrelli/Software_and_Computing.git
   
 **NOTES**
 1) If you have any issues with the two .root files containing the dataset for the signal and the background, you can also download them from this drive folder https://drive.google.com/drive/u/0/folders/1Qjlm0LlU3V8yMXpdPKd_vEr3gy74bmDr?q=sharedwith:public%20parent:1Qjlm0LlU3V8yMXpdPKd_vEr3gy74bmDr
-2) This project was tested on macOS 14.2.1, with root 6.30/2, python 3.10.9 and Docker 24.0.7
+2) This project was tested on macOS 14.2.1 (M1 chip), with root 6.30/2, python 3.10.9 and Docker 24.0.7
 
     
 
